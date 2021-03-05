@@ -1,0 +1,41 @@
+.footer{
+    padding: 49px 0 40px 0;
+    background-color: $footer;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 377px 263px 117px 111px;
+        grid-auto-rows: minmax(314px, auto);
+        justify-content:space-between;
+    }
+    &__item{
+        ul {
+            list-style-type: none;
+        }
+    }
+    &__head{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    &__block{
+        margin-top: 20px;
+    }
+    &__logo{
+        margin-top: 20px;
+    }
+    &__descr{
+        margin-top: 20px;
+    }
+    &__link{
+        a{
+            color: $white-color;
+        }
+    }
+    hr{
+        border-bottom: none;
+        opacity: 0.3;
+    }
+    &__policy{
+        margin-top: 36px;
+    }
+  
+}

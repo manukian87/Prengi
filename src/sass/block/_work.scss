@@ -1,0 +1,22 @@
+.work{
+    padding-bottom: 80px;
+    &__icon{
+        display: block;
+        margin: 0 auto;
+        width: 302px;
+        height: 302px;
+        img{
+            @include img
+        }
+    }
+    &__descr{
+        margin-top: 74px;
+        color:$descr-item
+    }
+    &__btns{
+        display: block;
+        margin: 30px  auto 0 auto;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+}
